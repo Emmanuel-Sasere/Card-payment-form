@@ -120,7 +120,7 @@ body {
 
 button {
     padding: 7px;
-    width: 400px;
+    width: 350px;
     margin: 10px 0px;
     color: white;
     background-color: #220930;
@@ -174,10 +174,13 @@ input[type=text], input[type=number] {
   background-color: transparent;
   outline: transparent;
   border-style: solid;
+ 
+
 }
 input[type=text]:focus, input[type=text] :active, input[type=text] :focus-within, input[type=number]:focus, input[type=number] :active, input[type=number] :focus-within {
   border-image: linear-gradient(to left, hsl(19, 99%, 64%), hsl(278deg, 94%, 30%)) 1;
   border-radius: 0.3rem;
+  
 }
 
 .field-title {
